@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/sheluvsmoney/Documents/vsCODES/univer_c/laba1/laba1'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003E28, symSize: 0xFC }
+  - { offsetInCU: 0x2DE8, offset: 0x2DE8, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003E28, symSize: 0xFC }
+  - { offsetInCU: 0x2E1E, offset: 0x2E1E, size: 0x8, addend: 0x0, symName: __Z3absB8ue170006d, symObjAddr: 0xFC, symBinAddr: 0x100003F24, symSize: 0x18 }
+  - { offsetInCU: 0x2E4A, offset: 0x2E4A, size: 0x8, addend: 0x0, symName: __Z3cosB8ue170006IiENSt3__19enable_ifIXsr3std11is_integralIT_EE5valueEdE4typeES2_, symObjAddr: 0x114, symBinAddr: 0x100003F3C, symSize: 0x30 }
+...

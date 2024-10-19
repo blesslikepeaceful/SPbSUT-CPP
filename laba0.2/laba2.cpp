@@ -5,17 +5,19 @@
 int main()
 {
     float y = 0;
-    for (int x = -5; x <= 5; x++) 
+    int i = 0;
+    for (float x = -5; x <= 5; x += 10.0/14.0) 
     {
+        i++;
         if (x < 2.1)
         {
             y = 2/(sqrt(abs(cos(x)+3)));
-            printf("Для i = %d, Для y = %lf\n", x, y);
+            printf("Номер точки: %d, Для x = %f, Для y = %lf\n", i, x, y);
         }
         if (x >= 2.1)
         {
             y = 4/(sqrt(abs(cos(x)+3)));
-            printf("Для i = %d, Для y = %lf\n", x, y);
+            printf("Номер точки: %d, Для x = %f, Для y = %lf\n", i, x, y);
         }
     }
     return 0;

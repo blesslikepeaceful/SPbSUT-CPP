@@ -6,22 +6,23 @@ int main()
 {
     float y = 0;
     int i = 0;
-    int x1 = -5;
-    int x2 = 5;
-    int n = 15;
-    int step = (n - 1);
-    for (x1; x2; x1 += step) 
+    double x1 = -5.0;
+    double x2 = 5.0;
+    int n = 97;
+    float j;
+    float step = (x2- x1)/(n - 1);
+    for (j = x1; j<=x2 + 0.000001; j += step) 
     {
         i++;
-        if (x1 < 2.1)
+        if (j < 2.1)
         {
-            y = 2/(sqrt(abs(cos(x1)+3)));
-            printf("Номер точки: %d, Для x = %f, Для y = %lf\n", i, x1, y);
+            y = 2/(sqrt(abs(cos(j)+3)));
+            printf("Номер точки: %d, Для x = %f, Для y = %lf\n", i, j, y);
         }
-        if (x1 >= 2.1)
+        if (j >= 2.1)
         {
-            y = 4/(sqrt(abs(cos(x1)+3)));
-            printf("Номер точки: %d, Для x = %f, Для y = %lf\n", i, x1, y);
+            y = 4/(sqrt(abs(cos(j)+3)));
+            printf("Номер точки: %d, Для x = %f, Для y = %lf\n", i, j, y);
         }
     }
     return 0;

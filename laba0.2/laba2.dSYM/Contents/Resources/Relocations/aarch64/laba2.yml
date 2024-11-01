@@ -2,9 +2,9 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/sheluvsmoney/Documents/vsCODES/univer_c/laba0.2/laba2'
 relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003D64, symSize: 0x180 }
-  - { offsetInCU: 0x2DC4, offset: 0x2DC4, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003D64, symSize: 0x180 }
-  - { offsetInCU: 0x2E16, offset: 0x2E16, size: 0x8, addend: 0x0, symName: __Z4sqrtB8ue170006f, symObjAddr: 0x180, symBinAddr: 0x100003EE4, symSize: 0x18 }
-  - { offsetInCU: 0x2E44, offset: 0x2E44, size: 0x8, addend: 0x0, symName: __Z3absB8ue170006f, symObjAddr: 0x198, symBinAddr: 0x100003EFC, symSize: 0x18 }
-  - { offsetInCU: 0x2E70, offset: 0x2E70, size: 0x8, addend: 0x0, symName: __Z3cosB8ue170006f, symObjAddr: 0x1B0, symBinAddr: 0x100003F14, symSize: 0x24 }
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003D20, symSize: 0x1C4 }
+  - { offsetInCU: 0x2DC4, offset: 0x2DC4, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003D20, symSize: 0x1C4 }
+  - { offsetInCU: 0x2E40, offset: 0x2E40, size: 0x8, addend: 0x0, symName: __Z4sqrtB8ue170006f, symObjAddr: 0x1C4, symBinAddr: 0x100003EE4, symSize: 0x18 }
+  - { offsetInCU: 0x2E6E, offset: 0x2E6E, size: 0x8, addend: 0x0, symName: __Z3absB8ue170006f, symObjAddr: 0x1DC, symBinAddr: 0x100003EFC, symSize: 0x18 }
+  - { offsetInCU: 0x2E9A, offset: 0x2E9A, size: 0x8, addend: 0x0, symName: __Z3cosB8ue170006f, symObjAddr: 0x1F4, symBinAddr: 0x100003F14, symSize: 0x24 }
 ...

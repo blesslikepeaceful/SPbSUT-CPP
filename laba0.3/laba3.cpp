@@ -49,7 +49,8 @@ int main()
                 resultSIGMA +=  sin (i) + pow (sin (x), 2);
                 resultMAIN = pow (sin (x), 2) + pow (resultSIGMA, 2);
                 i++;
-            } while (i<=N);
+            } 
+            while (i<=N);
             cout<<"Резульатат:"<<resultMAIN<<endl;
             break;
         }

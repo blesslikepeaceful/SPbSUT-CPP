@@ -30,17 +30,17 @@ void input_city_count(int& num) {
     cout << endl;
 }
 
-void input_population_limits(int& min_population, int& max_population) {
+void input_limits(int& min_population, int& min_museums) {
     cout << "Введите минимальное количество жителей: ";
     cin >> min_population;
-    cout << "Введите максимальное количество жителей: ";
-    cin >> max_population;
+    cout << "Введите минимальное количество музеев: ";
+    cin >> min_museums;
     cout << endl;
 }
 
-void output_filtered_cities(const City cities[], int num_cities, int min_population, int max_population) {
+void output_filtered_cities(const City cities[], int num_cities, int min_population, int min_museums) {
     for (int i = 0; i < num_cities; i++) {
-        if (cities[i].population > min_population && cities[i].population < max_population) {
+        if (cities[i].population > min_population && cities[i].number_of_museums > min_museums) {
             cout << "Город: " << cities[i].name << endl;
             cout << "Численность населения: " << cities[i].population << endl;
             cout << "Год основания: " << cities[i].year_of_foundation << endl;
@@ -53,7 +53,7 @@ void output_filtered_cities(const City cities[], int num_cities, int min_populat
 int main() {
     int num_cities;
     int min_population;
-    int max_population;
+    int min_museums;
 
     input_city_count(num_cities);
 
@@ -64,11 +64,11 @@ int main() {
         input_city(cities[i]);
     }
 
-    input_population_limits(min_population, max_population);
+    input_limits(min_population, min_museums);
 
     cout << string(24, '_') << endl;
-    cout << "Города с населением более " << min_population << " и менее " << max_population << ":" << endl;
-    output_filtered_cities(cities, num_cities, min_population, max_population);
-
+    cout << "Города с населением более " << min_population 
+         << " жителей и более " << min_museums << " музеев:" << endl;
+    output_filtered_cities(cities, num_cities, min_population, min_museums);
     return 0;
 }

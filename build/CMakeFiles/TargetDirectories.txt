@@ -1,0 +1,5 @@
+/Users/sheluvsmoney/Documents/vsCODES/univer_c/build/CMakeFiles/MyQtProject.dir
+/Users/sheluvsmoney/Documents/vsCODES/univer_c/build/CMakeFiles/edit_cache.dir
+/Users/sheluvsmoney/Documents/vsCODES/univer_c/build/CMakeFiles/rebuild_cache.dir
+/Users/sheluvsmoney/Documents/vsCODES/univer_c/build/CMakeFiles/MyQtProject_autogen_timestamp_deps.dir
+/Users/sheluvsmoney/Documents/vsCODES/univer_c/build/CMakeFiles/MyQtProject_autogen.dir

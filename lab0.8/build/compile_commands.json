@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/Users/sheluvsmoney/Downloads/lab8/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-g++-14 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/Users/sheluvsmoney/Downloads/lab8/build -I/Users/sheluvsmoney/Downloads/lab8 -I/Users/sheluvsmoney/Downloads/lab8/build/MyQtProject_autogen/include -isystem /opt/homebrew/lib/QtCore.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/lib/QtSql.framework/Headers -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -o CMakeFiles/MyQtProject.dir/MyQtProject_autogen/mocs_compilation.cpp.o -c /Users/sheluvsmoney/Downloads/lab8/build/MyQtProject_autogen/mocs_compilation.cpp",
+  "file": "/Users/sheluvsmoney/Downloads/lab8/build/MyQtProject_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/MyQtProject.dir/MyQtProject_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/sheluvsmoney/Downloads/lab8/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-g++-14 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/Users/sheluvsmoney/Downloads/lab8/build -I/Users/sheluvsmoney/Downloads/lab8 -I/Users/sheluvsmoney/Downloads/lab8/build/MyQtProject_autogen/include -isystem /opt/homebrew/lib/QtCore.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/lib/QtSql.framework/Headers -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -o CMakeFiles/MyQtProject.dir/main.cpp.o -c /Users/sheluvsmoney/Downloads/lab8/main.cpp",
+  "file": "/Users/sheluvsmoney/Downloads/lab8/main.cpp",
+  "output": "CMakeFiles/MyQtProject.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/sheluvsmoney/Downloads/lab8/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-g++-14 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/Users/sheluvsmoney/Downloads/lab8/build -I/Users/sheluvsmoney/Downloads/lab8 -I/Users/sheluvsmoney/Downloads/lab8/build/MyQtProject_autogen/include -isystem /opt/homebrew/lib/QtCore.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/lib/QtSql.framework/Headers -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -o CMakeFiles/MyQtProject.dir/mainwindow.cpp.o -c /Users/sheluvsmoney/Downloads/lab8/mainwindow.cpp",
+  "file": "/Users/sheluvsmoney/Downloads/lab8/mainwindow.cpp",
+  "output": "CMakeFiles/MyQtProject.dir/mainwindow.cpp.o"
+}
+]
